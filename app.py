@@ -58,7 +58,7 @@ def require_connection() -> None:
     except Exception as exc:
         st.error("ยังเชื่อมต่อ Neo4j Aura ไม่สำเร็จ")
         st.code(
-            '[neo4j]\nuri = "neo4j+s://YOUR_INSTANCE.databases.neo4j.io"\n'
+            '[neo4j]\nuri = "neo4j+s://e737832c.databases.neo4j.io"\n'
             'username = "neo4j"\npassword = "YOUR_PASSWORD"\ndatabase = "neo4j"',
             language="toml",
         )
